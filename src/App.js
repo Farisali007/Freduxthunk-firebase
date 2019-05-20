@@ -13,13 +13,13 @@ import { Scene,Router } from
 export default class App extends Component {
     componentWillMount() {
         firebase.initializeApp({
-            apiKey: "AIzaSyDaYqYZDOKWDpL37RRSBvNSqLDENNbhdQI",
-            authDomain: "rnfinalproject.firebaseapp.com",
-            databaseURL: "https://rnfinalproject.firebaseio.com",
-            projectId: "rnfinalproject",
-            storageBucket: "rnfinalproject.appspot.com",
-            messagingSenderId: "526789386106",
-            appId: "1:526789386106:web:7590913b4466f208"
+            apiKey: "AIzaSyDnagRezL-rbrBja_w-RDXbMxfWE_pnPfc",
+            authDomain: "firstapp-191e9.firebaseapp.com",
+            databaseURL: "https://firstapp-191e9.firebaseio.com",
+            projectId: "firstapp-191e9",
+            storageBucket: "firstapp-191e9.appspot.com",
+            messagingSenderId: "824965216994",
+            appId: "1:824965216994:web:bde5bfd38efe8ea6"
         });
     }
     render() {
